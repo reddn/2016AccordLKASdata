@@ -1,0 +1,30 @@
+arduino pin 3 data from MCU
+	pin 4 data from EPS
+
+
+MCU pinout	2 (white) CAN HIGH
+		13 (red) CAN LOW
+		12 (white) UART
+		1 (blue) UART
+		18 (BRN) MM wave radar
+		7 (YEL) MM wave rdar
+		14 (BLK) ground?
+		10 (WHT) Fused power from A21, 10A.. Full time power
+		19 (PUR) fused power from B7 (7.5A), IG1B relay, fuse A12-4 (30Amp)
+
+16 accord ex l with sensing
+eps motor  53602-TV0-E01
+eps mod 	 39980-T2F-L31 
+radar assem  36802-T2A-A04
+
+16 accord elx NO sensing
+	eps mod 39980-T2F-A31 
+	eps motor 53602-TV0-E01 
+
+15 accord elx no nav 49 state KA
+	eps motor 53602-TV0-E01 
+	eps module 39980-T2F-306 
+
+16-17 acura ILX
+	eps module 39980 TV9 A91
+	eps MOTOR 53602-TV0-E01 
